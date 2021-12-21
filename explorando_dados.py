@@ -2,7 +2,6 @@ import pandas as pd
 from collections import Counter
 
 # importando dados pre-processados e limpos
-
 df_tweets = pd.read_csv(f'./df_tweets_limpos.csv', index=False)
 
 
