@@ -14,7 +14,6 @@ import string
 
 
 # importando dataframe gerado por coletando_tweets.py
-
 df_tweets = pd.read_csv('./df_tweets.csv')
 df_tweets = df_tweets[['text', 'hashtags', 'user_description', 'user_name']] # selecionando principais features
 
